@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-from sys import argv
-
 def is_pair(numero):
     while numero >= 0:
         if numero % 2 == 0:
