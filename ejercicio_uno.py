@@ -22,22 +22,20 @@ def try_int(nb):
     else:
         return True
 
-def error_handling(argv):
-    if len(argv) != 2:
-        print ("Error: One argument expected")
-        return (84)
-    if try_int(argv[1]) == False:
+def error_handling(input_nb):
+    if try_int(input_nb) == False:
         print ("Error: Number expected")
         return (84)
 
 def main():
-    if error_handling(argv) == 84:
+    input_nb = input("LEER NUMERO:")
+    if error_handling(input_nb) == 84:
         return 84
-    numero = int(argv[1])
-    if numero % 2 == 0:
-        is_pair(numero)
+    NUMERO = int(input_nb)
+    if NUMERO % 2 == 0:
+        is_pair(NUMERO)
     else:
-        is_odd(numero)
+        is_odd(NUMERO)
 
 if __name__ == '__main__':
     exit(main())
