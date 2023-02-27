@@ -34,7 +34,7 @@ def verify_info(personas):
              if personas[x][2] == "H":
                 h_mas18 += 1
         else:
-            if if personas[x][2] == "M":
+            if personas[x][2] == "M":
                 m_menos18 += 1
         if personas[x][2] == "M":
             mujeres += 1
