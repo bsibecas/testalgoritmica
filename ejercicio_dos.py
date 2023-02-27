@@ -9,7 +9,7 @@ def get_people():
 
     max = int(input("Numero de personas:"))
 
-    for i in range(max)
+    for i in range(max):
         persona.append(input("Introduce el nombre de la persona:"))
         persona.append(input("Introduce el sexo de la persona con M o H:"))
         persona.append(input("Introduce la edad de la persona:"))
