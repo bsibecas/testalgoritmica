@@ -16,6 +16,7 @@ def get_people():
         personas.append(persona)
         persona = []
         x += 1
+    return personas
 
 def calcul_porcent(total, mas18, mujeres):
     print("%d porcentaje de mayores de edad" % (mas18 * 100) / total)
